@@ -1,0 +1,53 @@
+body {
+    background: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 900px;
+    margin: auto;
+}
+
+#title, .subtitulo, .post {
+    color: rgb(79, 80, 78);
+}
+a{
+    text-decoration: line-through; /* text-decoration é uma tag CSS usada para definir a decoração do texto, como sublinhado, linha sobre o texto, etc. */
+    color: red;
+}
+#title {
+    font-size: 40px;
+    text-transform: uppercase; /* text-transform é uma tag CSS usada para transformar o texto em maiúsculas ou minúsculas */
+}
+.odete{
+    border-radius: 50%; /* border-radius é uma tag CSS usada para definir o arredondamento dos cantos de um elemento */
+    width: 100%;
+    border-color: brown; /* border-color é uma tag CSS usada para definir a cor da borda de um elemento */
+}
+.post{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    border-radius: 5px 10px; /* border-radius é uma tag CSS usada para definir o arredondamento dos cantos de um elemento */
+    margin-bottom: 15px; /* margin-bottom é uma tag CSS usada para definir o espaçamento inferior de um elemento */
+}
+.poster{
+    background: blue; /* background é uma tag CSS usada para definir a cor ou imagem de fundo de um elemento */
+    padding: 10px; /* padding é uma tag CSS usada para definir o espaçamento interno de um elemento */
+    border: 3px solid black;/* border é uma tag CSS usada para definir a borda de um elemento */
+    margin: 15px;/* margin é uma tag CSS usada para definir o espaçamento externo de um elemento */
+}
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: right; /* text-align é uma tag CSS usada para definir o alinhamento do texto dentro de um elemento */
+}
+.post_img{
+    margin-bottom: 15px;
+}
+.contacts_list{
+    list-style-type: none; /* list-style-type é uma tag CSS usada para definir o estilo dos marcadores de lista */
+    padding-left: 15px; /* padding-left é uma tag CSS usada para definir o espaçamento interno à esquerda de um elemento */
+}
+
+.contacts_list li a {
+   text-decoration: none;
+}
