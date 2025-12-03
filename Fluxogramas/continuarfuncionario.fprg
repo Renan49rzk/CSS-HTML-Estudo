@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="continuarfuncionario"/>
+        <attribute name="authors" value="Cliente"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-12-02 04:30:53 "/>
+        <attribute name="created" value="Q2xpZW50ZTtERVNLVE9QLThDNDRFSE07MjAyNS0xMi0wMjsiMDQ6Mjc6NDIgIjsyOTI0"/>
+        <attribute name="edited" value="Q2xpZW50ZTtERVNLVE9QLThDNDRFSE07MjAyNS0xMi0wMjsiMDQ6MzA6NTMgIjsxOzMwMjg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="jan, fev, mar, abr" type="Real" array="False" size=""/>
+        </body>
+    </function>
+</flowgorithm>

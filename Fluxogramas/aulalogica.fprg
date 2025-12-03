@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="aulalogica"/>
+        <attribute name="authors" value="Cliente"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-12-02 04:59:47 "/>
+        <attribute name="created" value="Q2xpZW50ZTtERVNLVE9QLThDNDRFSE07MjAyNS0xMi0wMjsiMDM6NDU6MjEgIjsyOTIw"/>
+        <attribute name="edited" value="Q2xpZW50ZTtERVNLVE9QLThDNDRFSE07MjAyNS0xMi0wMjsiMDQ6NTk6NDcgIjs0OzMwNDU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <output expression="&quot;digite o seu nome&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;sua media &#233;&quot;" newline="True"/>
+            <declare name="nota1, nota2, nota3, nota4, media, total" type="Real" array="False" size=""/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="total" expression="nota1+nota2+nota3+nota4"/>
+            <output expression="total" newline="True"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <output expression="&quot;o seu nome &#233;: &quot; &amp; nome &amp; &quot; e sua media &#233;: &quot;&amp; media" newline="True"/>
+            <if expression="media&gt;=7">
+                <then>
+                    <output expression="&quot;Parabens, vc foi aprovado&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;vc &#233; burro e foi reprovado&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
